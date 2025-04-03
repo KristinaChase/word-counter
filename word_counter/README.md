@@ -1,21 +1,19 @@
-# WordCounter
+**Ця програма підраховує кількість слів в документі**
 
-**TODO: Add description**
+*Перед запуском програми виконайте команду:*
 
-## Installation
+*mix deps.get*
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `word_counter` to your list of dependencies in `mix.exs`:
+*Далі білдимо файл для виконання програми:*
 
-```elixir
-def deps do
-  [
-    {:word_counter, "~> 0.1.0"}
-  ]
-end
-```
+*mix escript.build*
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/word_counter>.
+**Текстовий файл demo.txt можете редактувати, а після ввести цю команду:**
 
+*./word_counter demo.txt*
+
+**Вам покаже кількість слів у файлі, наразі там 6 слів, тому напише:**
+
+*The file contains 6 words.*
+
+**Цього має бути достатньо для першого запуску. Тому якщо будете редактувати файл, то не забудь зберегти зміни.**
